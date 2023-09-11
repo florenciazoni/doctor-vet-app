@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Vet</title>
+
+    <!--Link Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--Link css-->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" href="img/icono.jpg" />
+    <!--Link google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Baloo+Bhaijaan+2:wght@400;700&family=Cabin:wght@400;500&family=Hind:wght@400;500;600&family=Libre+Baskerville&family=Quicksand&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Link de iconos Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    
+  </head>
+  <body>
+    <!--header-->
+    <section class="card-header img-fluid  ">
+      <div class="container-fluid  ">
+
+       
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container">
+           
+            <!--Icono Doctor vet-->
+            <img class="doctor-vet-logo w-auto " height="100" src="img/logotype-fin-1.png" alt="" />
+            <h1 class="title-logo">Doctor Vet</h1>
+           
+  
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-lg-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pricing">Precios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+        <!--Sección Hero-->
+  
+        <section class="hero container ">
+          <div class="container-fluid d-flex flex-column mb-2  ">
+            <h1 class="title-description mt-3">
+              Software de gestión <br />
+              Veterinaria
+            </h1>
+            <br />
+            <p class="main-text ">
+              Doctor Vet es un amigo cercano en la gestión de tu clínica
+              veterinaria. Su interfaz amigable y accesible ofrece diversas
+              herramientas para simplificar las tareas diarias
+            </p>
+          </div>
+          <div class="container-fluid ms-lg-5  ">
+            <button type="button" class="btn  mb-3 ms-5">¡Pruébalo Ahora!</button>
+  
+          </div>
+          
+        </section>
+  
+      </div>
+      
+      
+    </section>
+
+    <!--second section-->
+
+    <section class="second-section d-flex flex-column">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 one-column   col-lg-3 d-flex flex-column align-items-center justify-content-center ">
+            <h1 class="what-we-offer-title text-center ">¿Qué ofrecemos?</h1>
+          </div>
+
+          <div class="col-12  col-lg-3 align-content-md-center justify-content-md-center">
+            <!--icono cliente-mascota -->
+            <div class="d-flex flex-column align-items-center justify-content-center mt-4" >
+              <img
+                class="mt-5"
+                src="img/iconos/clientes-mascotas.png"
+                alt="Clientes y Mascotas"
+                height="100"
+                width="100"
+              />
+
+              <h2 class="pets-clients-title mt-3">Clientes y Mascotas</h2>
+              <p class="pets-clients-text text-center mx-3">
+                Módulo ingreso/búsqueda de clientes y mascotas. Llamadas,
+                emails, deudas. Obra social y fichas mascotas
+              </p>
+            </div>
+
+            <!--main menu icon -->
+            <div class="d-flex flex-column align-items-center justify-content-center mt-auto" >
+              <img
+                class="mt-5"
+                src="img/iconos/menu.png"
+                alt=""
+                height="100"
+                width="100"
+              />
+              <h2 class="menu-icon-title mt-3">Menú Principal</h2>
+              <p class="menu-icon-text text-center mx-3">
+                Módulo integrador: Acceso total al programa. Resumen del día y
+                enlaces directos a información relevante.
+              </p>
+            </div>
+
+            <!-- agenda icon -->
+            <div class="d-flex flex-column align-items-center justify-content-center mt-auto" >
+              <img
+                class="mt-5"
+                src="img/iconos/agenda.png"
+                alt=""
+                height="100"
+                width="100"
+              />
+              <h2 class="agenda-title mt-3">Agenda</h2>
+              <p class="agenda-text  text-center mx-3">
+                Automatización de tareas en Doctor Vet: envío automático de
+                correos (configurable), comunicación con deudores, ofertas por
+                correo, felicitaciones cumpleaños, etc.
+              </p>
+            </div>
+             <!--automation icon -->
+            <div class="d-flex flex-column align-items-center justify-content-center mt-auto">
+              <img
+              class="mt-5"
+                src="img/iconos/automatizacion.png"
+                alt=""
+                height="100"
+                width="100"
+              />
+              <h2 class="automation-title mt-3">
+                La automatización en Doctor Vet
+              </h2>
+              <p class="automation-text text-center mx-3">
+                Automatización según configuración: funciones
+                habilitables/deshabilitables.
+              </p>
+            </div>
+          </div>
+          
+          <div class="col-12  col-lg-3 align-content-md-center justify-content-md-center" >
+            <!--Icono Ficha de una Mascota-->
+            <div class="d-flex flex-column align-items-center justify-content-center mt-4" >
+              <img
+                class="mt-5"
+                src="img/iconos/ficha-mascota.png"
+                alt=""
+                height="100"
+                width="100"
+              />
+
+              <h2 class="pet-profile mt-3">Ficha de una Mascota</h2>
+              <p class=" pet-profile-text text-center mx-3">
+                Ficha individual de mascota: Foto, historial clínico por
+                sesiones con fotos, vacunación, análisis, radiología,
+                ecografías.
+              </p>
+            </div>
+
+            <!--financial management icon -->
+            <div class="d-flex flex-column align-items-center justify-content-center mt-auto" ">
+              <img
+                class="mt-4"
+                src="img/iconos/finanzas.png"
+                alt=""
+                height="100"
+                width="100"
+              />
+              <h2 class="financial-management mt-3">Manejo Financiero</h2>
+              <p class="financial-management-text text-center mx-3">
+                Gestión de proveedores y artículos. Ventas, compras,
+                cancelaciones. Caja diaria, inventario y ambulante. Cuentas
+                corrientes.
+              </p>
+            </div>
+            
+            <!--message icon -->
+
+            <div class="d-flex flex-column align-items-center justify-content-center mt-auto">
+              <img
+               class="mt-4"
+                src="img/iconos/mensajeria.png"
+                alt=""
+                height="100"
+                width="100"
+              />
+
+              <h2 class="message-title mt-3">Mensajeria</h2>
+              <p class="message-text text-center mx-3">
+                Destaque mensajes enviados. Texto, cartas impresas. Mensajes
+                automáticos y estados resaltados.
+              </p>
+            </div>
+          </div>
+
+          
+          <div class="col-12  col-lg-3 align-content-md-center justify-content-md-center">
+            <!--sesrches icon -->
+            <div class="d-flex flex-column align-items-center justify-content-center mt-4">
+              <img
+                class="mt-5"
+                src="img/iconos/busqueda.png"
+                alt=""
+                height="100"
+                width="100"
+              />
+              <h2 class="searches-title mt-3">Busquedas y Movimientos</h2>
+              <p class="searches-text text-center mx-3">
+                Módulo registro y búsqueda avanzada: Clientes, mascotas,
+                proveedores. Ventas, compras, cobros.
+              </p>
+            </div>
+            <!--general lists icon -->
+
+            <div class="d-flex flex-column align-items-center justify-content-center mt-auto">
+              <img
+               class="mt-5"
+                src="img/iconos/listados-generales.png"
+                alt=""
+                height="100"
+                width="100"
+              />
+              <h2 class="general-lists-title mt-3">Listados Generales</h2>
+              <p class="general-lists-text text-center mx-3">
+                Clientes, mascotas, ambos. Proveedores. Ventas, compras, gastos
+                entre fechas. Deudores, acreedores. Hospedados.
+              </p>
+            </div>
+            <!--analysis icon -->
+            <div class="d-flex flex-column align-items-center justify-content-center mt-auto">
+              <img
+              class="mt-5"
+                src="img/iconos/analisis.png"
+                alt=""
+                height="100"
+                width="100"
+              />
+              <h2 class="analysis-title mt-3">Análisis</h2>
+              <p class="analysis-text text-center mx-3">
+                Análisis vacunación: Dosis proyectadas y reales en periodos.
+                Planificación.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing-->
+    <section class="pricing-section d-flex flex-column justify-content-center align-items-center " id="pricing">
+      <h1 class="pricing-title   align-items-sm-center justify-content-sm-center mt-5">
+        Nuestros <span style="color: black;"> Precios</span>
+      </h1>
+      <div class="container-fluid">
+        <div class="row ">
+          <div class="column  col-12 col-sm-6 ">
+            <div class="card col-12 col-sm-6 " style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Plan por 2 Meses</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                <p class="card-text">
+                  <span style="font-size: 1.8rem"> $ 14 USD</span> (7 USD/Mes)
+                </p>
+
+                <a href="#" class="btn btn-sm">Suscribirse</a>
+              </div>
+            </div>
+          </div>
+          <div class="column  col-12 col-sm-6 ">
+            <div class="card card-dos col-12 col-sm-6 ms-sm-0" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Plan por 6 Meses</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                <p class="card-text">
+                  <span style="font-size: 1.8rem"> $ 42 USD</span> (7 USD/Mes)
+                </p>
+
+                <a href="#" class="btn btn-sm">Suscribirse</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section class="d-flex flex-column justify-content-center align-items-center mt-3" id="contact">
+      <h1 class="contact-title align-items-sm-center justify-content-sm-center mt-4">
+        Nuestro <span  style="color: black">Contacto</span>
+      </h1>
+
+      <div class="container-fluid contact-background img-fluid">
+        
+        <div class="row g-3 needs-validation align-items-center justify-content-center " novalidate>
+        <div class="col-md-6 ">
+           <div class="form d-flex flex-column mt-5  p-5" >
+            <div class="form-floating mt-5" >
+              <input type="name" class="form-control" id="floatingInput" placeholder="Nombre" required>
+              <label for="floatingInput">Nombre</label>
+              <div class="valid-feedback"  >
+                
+
+
+              </div>
+
+              <div class="invalid-feedback">
+               Escriba su Nombre 
+              </div>
+            </div>
+            <div class="form-floating  mt-5">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email </label>
+              <div class="valid-invalid-feedback">
+                
+
+
+              </div>
+
+              <div class="invalid-feedback">
+               Escriba su email
+              </div>
+            </div>
+            <div class="form-floating mt-5">
+              <textarea class="form-control " placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              <label for="floatingTextarea">Comentario</label>
+              <div class="valid-invalid-feedback">
+                
+
+
+              </div>
+
+              <div class="invalid-feedback">
+               Escriba su comentario
+              </div>
+            </div>
+
+            
+            <div class="col-12  d-flex flex-row align-content-center justify-content-center">
+              <button class="btn" type="submit">Enviar</button>
+            </div>
+
+           </div>
+         
+
+        </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer class="d-flex">
+      <div class="container-fluid  social-media-icons d-flex flex-wrap mt-auto ">
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-envelope-at"></i></a>
+        <a href=""><i class="bi bi-twitter"></i></a>
+      </div>
+
+      <div
+        class="mt-auto ms-auto  d-flex flex-column "
+        
+      >
+        <img class="image-logo-footer img-fluid mx-auto" src="img/logotype-fin-1.png" width="150" height="150">© Copyright 2023 Doctor Vet · All Rights Reserved.
+      
+      </div>
+
+   
+    </footer>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+   
+  </body>
+</html>

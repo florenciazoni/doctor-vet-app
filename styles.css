@@ -1,0 +1,411 @@
+/*VARIABLES PROPIAS*/
+
+:root {
+  --grey-color: #f5e3dc;
+  --brown-color: #9d2900;
+  --light-brown-color: rgb(222, 138, 59);
+  --black-color: rgb(45, 31, 18);
+  --link-color: rgb(41, 93, 213);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*Barra de Navegación*/
+.navbar {
+  position: relative;
+  display: flex;
+
+  align-items: center;
+
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: calc(1.375rem + 1.5vw);
+  text-decoration: none;
+  white-space: nowrap;
+  color: #9d2900;
+  margin-left: 10px;
+  font-family: "Hind", sans-serif;
+}
+
+/* Doctor Vet Icon */
+
+.title-logo {
+  font-size: 3.5rem;
+  font-family: "Hind", sans-serif;
+  margin-top: 33px;
+  color: #9d2900;
+}
+
+.navbar-brand a:hover {
+  color: var(--brown-color) !important;
+}
+.nav-item a {
+  color: var(--brown-color) !important;
+  font-family: "Hind", sans-serif;
+  font-size: 1.6rem;
+}
+.nav-item a:hover {
+  color: var(--light-brown-color) !important;
+}
+
+/*Sección principal*/
+.card-header {
+  background-image: url(img/photo_dog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: relative;
+}
+/*Seccion Hero*/
+.title-description {
+  font-family: "Baloo Bhaijaan 2", cursive, Bold 700;
+  font-size: 2.5rem;
+
+  color: var(--brown-color);
+}
+
+.main-text {
+  font-size: 1.3rem;
+
+  max-width: 500px;
+  font-family: "Baloo Bhaijaan 2", cursive, Bold 700;
+}
+
+/*second section*/
+
+.one-column {
+  background-color: var(--light-brown-color);
+}
+
+.what-we-offer-title {
+  font-family: "Baloo Bhaijaan 2", cursive, Bold 700;
+  font-size: 2.8rem;
+  color: white;
+}
+
+/*icono cliente mascota*/
+
+.pets-clients-title {
+  font-size: 1.2rem;
+  font-family: "Hind", sans-serif;
+  color: #9d2900;
+}
+
+.pets-clients-text {
+  font-family: "Hind", sans-serif;
+}
+
+/*main menu icon*/
+
+.menu-icon-title {
+  font-family: "Hind", sans-serif;
+  font-size: 1.2rem;
+  color: #9d2900;
+}
+
+.menu-icon-text {
+  font-family: "Hind", sans-serif;
+}
+/*agenda*/
+
+.agenda-title {
+  font-family: "Hind", sans-serif;
+  font-size: 1.2rem;
+  color: #9d2900;
+}
+.agenda-text {
+  font-family: "Hind", sans-serif;
+}
+
+/*automation icon */
+.automation-title {
+  font-family: "Hind", sans-serif;
+  font-size: 1.2rem;
+  color: #9d2900;
+}
+
+.automation-text {
+  font-family: "Hind", sans-serif;
+}
+
+/* pet profile icon */
+
+.pet-profile {
+  font-family: "Hind", sans-serif;
+  font-size: 1.2rem;
+  color: #9d2900;
+  margin-top: 10px;
+}
+
+.pet-profile-text {
+  font-family: "Hind", sans-serif;
+}
+
+/*financial management icon */
+
+.financial-management {
+  font-family: "Hind", sans-serif;
+  font-size: 1.2rem;
+  color: #9d2900;
+}
+.financial-management-text {
+  font-family: "Hind", sans-serif;
+}
+/*icono listados generales*/
+.listados-generales {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+
+/*message icon */
+
+.message-title {
+  font-family: "Hind", sans-serif;
+  font-size: 1.2rem;
+  color: #9d2900;
+}
+.message-text {
+  font-family: "Hind", sans-serif;
+}
+
+/*searches icon */
+
+.searches-title {
+  font-family: "Hind", sans-serif;
+  font-size: 1.2rem;
+  color: #9d2900;
+}
+.searches-title {
+  font-family: "Hind", sans-serif;
+}
+
+.general-lists-title {
+  font-family: "Hind", sans-serif;
+  font-size: 1.2rem;
+  color: #9d2900;
+}
+.general-lists-text {
+  font-family: "Hind", sans-serif;
+}
+
+/*icono analisis*/
+
+.analysis-title {
+  font-family: "Hind", sans-serif;
+  font-size: 1.2rem;
+  color: #9d2900;
+  margin-top: 10px;
+}
+
+.analysis-text {
+  font-family: "Hind", sans-serif;
+}
+
+/*pricing */
+
+.pricing-title {
+  color: #9d2900;
+  font-family: "Baloo Bhaijaan 2", cursive, Bold 700;
+  font-size: 3rem;
+}
+
+.card {
+  margin-left: auto;
+  margin-top: 30px;
+  border: 2px solid var(--brown-color);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-title {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  font-size: 2rem;
+  color: #9d2900;
+}
+.card-text {
+  padding: auto;
+  margin: auto;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  font: 1.5rem;
+}
+.btn {
+  background-color: #9d2900;
+  color: white;
+  margin-top: 20px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+.btn:hover {
+  color: black;
+}
+
+/*contact section*/
+
+
+.contact-title {
+  color: #9d2900;
+  font-family: "Baloo Bhaijaan 2", cursive, Bold 700;
+  font-size: 3rem;
+  
+}
+.contact-background {
+  margin-top: 30px;
+
+  background-image: linear-gradient(rgba(5, 7, 12, 0.3), rgba(5, 7, 12, 0.3)),
+    url(img/form_dog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: relative;
+  min-height: 120vh;
+}
+
+.form-control{
+
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--brown-color);
+    color: black;
+
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 55px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  margin-left: auto;
+  margin-top: 23px;
+  margin-right: auto;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.titulo-form {
+  color: white;
+  font-size: 2rem;
+  font-family: "Baloo Bhaijaan 2", cursive, Bold 700;
+}
+input,
+textarea {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  padding: 20px 14px;
+  margin-bottom: 25px;
+
+  color: white;
+}
+
+:focus {
+  outline: 1px solid var(--brown-color);
+}
+.btn:hover {
+  background-color: var(--light-brown-color);
+}
+.contacto-fondo {
+  display: flex;
+
+  flex-direction: column;
+}
+
+/*footer*/
+
+footer {
+  display: flex;
+  padding: 105px 100px;
+
+  background-color: var(--light-brown-color);
+  margin-top: 100px;
+}
+
+.social-media-icons a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.social-media-icons i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.social-media-icons a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.social-media-icons a:hover i {
+  color: black;
+}
+
+.copyright {
+  font-size: 15px;
+  color: black;
+  padding: 20px;
+}
+
+
+/* Media query para pantallas de tamaño pequeño */
+@media screen and (max-width: 580px) {
+  .card-header {
+    background-image: linear-gradient(
+        rgba(245, 235, 224, 0.3),
+        rgba(248, 244, 241, 0.219)
+      ),
+      url(img/photo_dog.jpg);
+  }
+
+  .title-logo {
+    display: none;
+  }
+  
+
+ 
+ 
+
+ 
+
+  
+
+  
+  
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%; /* Cambia el ancho máximo para pantallas más pequeñas */
+    padding: 10px; /* Ajusta el espacio en los bordes */
+  }
+}
+
