@@ -374,6 +374,15 @@ footer {
   color: black;
   padding: 20px;
 }
+.form-floating > input{
+ color: white;
+
+
+}
+.form-floating > textarea{
+color: white;
+
+}
 
 
 /* Media query para pantallas de tamaño pequeño */
@@ -391,8 +400,22 @@ footer {
   }
   
 
+ .card-container{
+  
+    padding: 0px 45px;
  
+
+ }
  
+ .pricing-title{
+
+padding: 0px 5px;
+
+ }
+ .one-column{
+padding: 20px 25px;
+
+ }
 
  
 
