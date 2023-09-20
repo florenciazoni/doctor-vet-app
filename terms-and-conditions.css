@@ -1,0 +1,16 @@
+body{
+
+    font-family: "Baloo Bhaijaan 2", cursive, Bold 700;
+
+}
+
+
+section{
+    background: #F5B275;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FCFBF7, #F5B275);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FCFBF7 , #F5B275);
+
+
+}

@@ -16,12 +16,9 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="icon" href="img/icono.jpg" />
     <!--Link google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Baloo+Bhaijaan+2:wght@400;700&family=Cabin:wght@400;500&family=Hind:wght@400;500;600&family=Libre+Baskerville&family=Quicksand&family=Rubik+Dirt&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Baloo+Bhaijaan+2:wght@400;700&family=Cabin:wght@400;500&family=Hind:wght@400;500;600&family=Libre+Baskerville&family=Patua+One&family=Quicksand&family=Rubik+Dirt&display=swap" rel="stylesheet">
 
     <!--Link de iconos Bootstrap-->
     <link
@@ -33,7 +30,7 @@
   </head>
   <body>
     <!--header-->
-    <section class="card-header img-fluid  ">
+    <section class="card-header first-section img-fluid  ">
       <div class="container-fluid  ">
 
        
@@ -42,7 +39,7 @@
            
             <!--Icono Doctor vet-->
             <img class="doctor-vet-logo w-auto " height="100" src="img/logotype-fin-1.png" alt="" />
-            <h1 class="title-logo">Doctor Vet</h1>
+            <h1 class="title-logo" style="color:#9d2900;">Doctor Vet</h1>
            
   
             <button
@@ -60,7 +57,7 @@
               <ul class="navbar-nav ms-lg-auto">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="index.html"
-                    >Inicio</a
+                  >Inicio</a
                   >
                 </li>
                 <li class="nav-item">
@@ -290,7 +287,7 @@
     <!-- pricing-->
     <section class="pricing-section d-flex flex-column justify-content-center align-items-center " id="pricing">
       <h1 class="pricing-title   align-items-sm-center justify-content-sm-center mt-5">
-        Nuestros <span style="color: black;"> Precios</span>
+         <span style="color:#9d2900;"> Precios</span>
       </h1>
       <div class="container-fluid">
         <div class="row ">
@@ -325,14 +322,58 @@
     </section>
 
     <!-- contact section -->
+    
 
     <section class="d-flex flex-column justify-content-center align-items-center mt-3" id="contact">
-      <h1 class="contact-title align-items-sm-center justify-content-sm-center mt-4">
-        Nuestro <span  style="color: black">Contacto</span>
+      <h1 class="contact-title align-items-sm-center justify-content-sm-center mt-5 mb-0">
+         <span  style="color: #9d2900;">Contacto</span>
       </h1>
 
-      <div class="container-fluid contact-background img-fluid">
+      <div class="container-fluid contact-background mb-auto d-flex flex-column align-items-center justify-content-start " >
+       
         
+        
+        
+        
+        
+        <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">¿Tenés alguna pregunta? <span class="text-muted">¡Escribinos!</span></h2>
+        
+        <div class="container icon-contact-container d-flex flex-column align-items-center justify-content-center">
+          <i class="bi bi-whatsapp mb-auto ms-5"> <span style="color: #9d2900;">Whatsapp:</span> +5492612716685 </i>
+          <i class="bi bi-envelope-check"> <span style="color: #9d2900;">Email:</span> doctorvet@xionce.com</i>
+        </div>
+
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false" src="img/form_dog.jpg" ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+
+      </div>
+    </div>
+
+     <hr class="featurette-divider">
+
+   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+      
+
+       
+        
+      
+        <!-- 
         <div class="row g-3 needs-validation align-items-center justify-content-center " novalidate>
         <div class="col-md-6 ">
            <div class="form d-flex flex-column mt-5  p-5" >
@@ -385,7 +426,8 @@
          
 
         </div>
-        </div>
+        </div>-->
+       
         
         
         
@@ -401,11 +443,22 @@
     <!--Footer-->
 
     <footer class="d-flex">
-      <div class="container-fluid  social-media-icons d-flex flex-wrap mt-auto ">
+      <div class="container  social-media-icons d-flex flex-wrap mt-auto me-5 " >
         <a href=""><i class="bi bi-facebook"></i></a>
         <a href=""><i class="bi bi-envelope-at"></i></a>
         <a href=""><i class="bi bi-twitter"></i></a>
+
+        
       </div>
+    
+      <div class=" container flex-column mt-auto " >
+        <p class="   mt-auto pe-5"><a class="privacy-policy-link mt-auto" href="privacy-policy.html" >Política y Privacidad</a></p>
+        <p class="mt-0    pe-5"><a class="privacy-policy-link mt-auto" href="terms-and-conditions.html" >Terminos y condiciones</a></p>
+        
+  
+        </div>
+
+     
 
       <div
         class="mt-auto ms-auto  d-flex flex-column "
