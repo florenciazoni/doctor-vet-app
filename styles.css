@@ -476,6 +476,11 @@ flex-direction: row;
 flex-wrap: nowrap;
 
 }
+.pricing-section{
+
+justify-content: space-around;
+
+}
 
   
 
