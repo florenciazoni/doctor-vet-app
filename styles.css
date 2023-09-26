@@ -213,7 +213,7 @@
   font-family: "Hind", sans-serif;
 }
 
-/*icono analisis*/
+/*analysis icon*/
 
 .analysis-title {
   font-family: "Hind", sans-serif;
@@ -478,6 +478,10 @@ padding: 0;
 align-items: center; 
 justify-content: center;
 
+}
+.pet-profile-container{
+
+  margin-top: auto;
 }
 
   
