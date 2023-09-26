@@ -493,14 +493,16 @@ justify-content: center;
 @media screen and (max-width: 992px) {
   .container {
     max-width: 100%; /* Cambia el ancho máximo para pantallas más pequeñas */
-    padding: 10px; /* Ajusta el espacio en los bordes */
+    
   }
     .title-logo {
     margin-right: auto;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    margin-bottom: auto;
   }
  .navbar-collapse{
   flex-grow: 0;
+ 
 
 
  }
@@ -520,7 +522,15 @@ justify-content: center;
 padding: 20px 25px;
 
 }
+.navbar-container{
+  align-items: baseline;
 
+}
+.nav-item{
+
+font-size: 2.4rem;
+
+}
 
 
 
