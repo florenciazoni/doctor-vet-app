@@ -483,7 +483,20 @@ justify-content: center;
 
   margin-top: auto;
 }
+.btn-probar{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 
+}
+.btn-pruebalo{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+
+}
   
 
   
