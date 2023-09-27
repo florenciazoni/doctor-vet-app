@@ -82,7 +82,7 @@
 
   color: var(--brown-color);
 }
-.container-fluid > button:hover{animation:rotate-scale-up-horizontal 1.2s linear both} @keyframes rotate-scale-up-horizontal{0%{transform:scale(1) rotateX(0)}50%{transform:scale(2) rotateX(-180deg)}100%{transform:scale(1) rotateX(-360deg)}}
+
 
 .main-text {
   font-size: 1.3rem;
@@ -497,6 +497,16 @@ align-items: center;
   align-items: center;
 
 }
+.what-we-offer-title{
+
+  padding: 10px 15px;
+  
+  }
+
+
+
+  
+
   
 
   
@@ -544,13 +554,7 @@ padding: 20px 25px;
 font-size: 2.4rem;
 
 }
-.btn-probar{
- 
-  margin-left: 50px;
-  
-  
-  
-  }
+
 
     
 
