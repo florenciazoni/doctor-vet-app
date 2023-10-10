@@ -18,23 +18,23 @@
     <link rel="icon" href="img/icono.jpg" />
     <!--Link google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Baloo+Bhaijaan+2:wght@400;700&family=Cabin:wght@400;500&family=Hind:wght@400;500;600&family=Libre+Baskerville&family=Patua+One&family=Quicksand&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Baloo+Bhaijaan+2:wght@400;700&family=Cabin:wght@400;500&family=Hind:wght@400;500;600&family=Libre+Baskerville&family=Patua+One&family=Quicksand&family=Rubik+Dirt&family=Rubik+Mono+One&display=swap" rel="stylesheet">
 
     <!--Link  Bootstrap icons -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
   </head>
   <body>
     <!--header-->
-    <section class="card-header first-section img-fluid  ">
+    <section class="first-section img-fluid  ">
       <div class="container-fluid  ">
 
-       
+      
         <nav class="navbar navbar-expand-md navbar-light">
           <div class="container navbar-container">
            
@@ -75,22 +75,24 @@
         <!--Hero section -->
   
         <section class="hero container ">
-          <div class="container-fluid d-flex flex-column mb-2  ">
-            <h1 class="title-description mt-lg-3 mt-md-auto">
-              Software de gestión <br />
-              Veterinaria
-            </h1>
-            <br />
-            <p class="main-text ">
-              Doctor Vet es un amigo cercano en la gestión de tu clínica
-              veterinaria. Su interfaz amigable y accesible ofrece diversas
-              herramientas para simplificar las tareas diarias
-            </p>
+          <div class="container d-flex flex-column align-items-lg-start container-hero" >
+            <div class="container-fluid d-flex flex-column  mb-2  " data-aos="fade-down-right">
+              <h1 class="title-description  mt-md-auto lh-2">
+                Software de gestión </br>
+                Veterinaria
+              </h1>
+              <br />
+              <p class="main-text  fs-2">
+                Doctor Vet es un amigo cercano en la gestión de tu clínica
+                veterinaria.
+              </p>
+            </div>
+            <div class="container-fluid  btn-probar d-flex flex-column align-items-lg-start mt-5 ms-lg-5">
+              <button type="button" class="btn btn-pruebalo  ">¡Pruébalo Ahora!</button>
+    
+            </div>
           </div>
-          <div class="container-fluid ms-lg-5 mx-sm-1 btn-probar ">
-            <button type="button" class="btn btn-pruebalo mb-3 ms-lg-5">¡Pruébalo Ahora!</button>
-  
-          </div>
+          
           
         </section>
   
@@ -104,8 +106,8 @@
     <section class="second-section d-flex flex-column">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 one-column   col-lg-3 d-flex flex-column align-items-center justify-content-center ">
-            <h1 class="what-we-offer-title text-center ">¿Qué ofrecemos?</h1>
+          <div class="col-12 one-column   col-lg-3 d-flex flex-column align-items-center justify-content-center " >
+            <h1 class="what-we-offer-title text-center " data-aos="flip-right">¿Qué ofrecemos?</h1>
           </div>
 
           <div class="col-12  col-lg-3 align-content-md-center justify-content-md-center">
@@ -290,11 +292,11 @@
       <h1 class="pricing-title   align-items-sm-center justify-content-sm-center mt-5">
          <span style="color:#9d2900;"> Precios</span>
       </h1>
-      <div class="container-fluid">
+      <div class="container-fluid container-pricing " >
         <div class="row ">
           <div class="card-container col-12 col-sm-6 ">
-            <div class="card col-12 col-sm-6 " style="width: 18rem">
-              <div class="card-body">
+            <div class="card col-12 col-sm-6 " data-aos="fade-right" style="width: 18rem">
+              <div class="card-body" >
                 <h5 class="card-title">Plan por 2 Meses</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
                 <p class="card-text">
@@ -306,7 +308,7 @@
             </div>
           </div>
           <div class="card-container col-12 col-sm-6 ">
-            <div class="card card-dos col-12 col-sm-6 ms-sm-0" style="width: 18rem">
+            <div class="card card-dos col-12 col-sm-6 ms-sm-0" data-aos="fade-left" style="width: 18rem">
               <div class="card-body">
                 <h5 class="card-title">Plan por 6 Meses</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
@@ -321,7 +323,6 @@
         </div>
       </div>
     </section>
-
     <!-- contact section -->
     
 
@@ -330,7 +331,7 @@
          <span  style="color: #9d2900;">Contacto</span>
       </h1>
 
-      <div class="container-fluid contact-background mb-auto d-flex flex-column align-items-center justify-content-start " >
+      <div class="container-fluid contact-background mb-auto d-flex flex-column align-items-center justify-content-start " data-aos="flip-left" data-daos-easing="ease-out-cubit" data-daos-duration="2000" >
        
         
         
@@ -348,7 +349,7 @@
 
       </div>
       <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false" src="img/form_dog.jpg" ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false" src="img/contact.avif" ><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
 
       </div>
     </div>
@@ -482,6 +483,10 @@
     crossorigin="anonymous"
     ></script>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+     AOS.init();
+    </script>
    
   </body>
 </html>

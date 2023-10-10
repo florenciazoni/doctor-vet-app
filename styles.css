@@ -61,36 +61,52 @@
 .nav-item a {
   color: var(--brown-color) !important;
   font-family: "Hind", sans-serif;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .nav-item a:hover {
   color: var(--light-brown-color) !important;
 }
 
 /*first section*/
+
 .first-section {
-  background-image: url(img/photo_dog.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: relative;
+  background-image: linear-gradient(
+      rgba(29, 28, 28, 0.4),
+      rgba(240, 240, 240, 0.219)
+    ),
+    url(img/header.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 115vh;
 }
 /*hero section*/
-.title-description {
-  font-family: "Baloo Bhaijaan 2", cursive, Bold 700;
-  font-size: 2.5rem;
 
-  color: var(--brown-color);
+.title-description {
+  font-family: 'Hind', sans-serif;
+    font-size: 3.5rem;
+   color: #9d2900;
+}
+.container-hero{
+
+margin-top: 2rem;
+
 }
 
 
 .main-text {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  color: white;
 
-  max-width: 500px;
+    max-width: 400px;
   font-family: "Baloo Bhaijaan 2", cursive, Bold 700;
 }
+.btn-probar{
 
+  
+  margin-bottom: 1.5rem;
+
+}
 
 /*second section*/
 
@@ -267,7 +283,6 @@
 .btn:hover {
   color: black;
 }
-
 /*contact section*/
 
 
@@ -426,11 +441,13 @@ text-decoration: none;
 @media screen and (max-width: 580px) {
   .first-section {
     background-image: linear-gradient(
-        rgba(29, 28, 28, 0.3),
-        rgba(80, 73, 68, 0.219)
-      ),
-      url(img/photo_dog.jpg);
+      rgba(29, 28, 28, 0.4),
+      rgba(240, 240, 240, 0.219)
+    ),
+    url(img/header.avif);
+    min-height: none;
   }
+
 
   .title-logo {
     display: none;
@@ -443,6 +460,7 @@ text-decoration: none;
   .title-description{
 
     font-family: 'Patua One', cursive;
+    font-size: 3.5rem;
 
   }
   .featurette-heading{
@@ -453,9 +471,15 @@ text-decoration: none;
 
   }
 
- .card-container{
-  
-    padding: 0px 45px;
+ .container-pricing{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   padding: 0 45px;
+   margin-left: auto;
+   margin-right: auto;
+   
  
 
  }
@@ -484,19 +508,15 @@ justify-content: center;
   margin-top: auto;
 }
 .btn-probar{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+
+ align-content: center;
+ justify-content: center;
+ flex-wrap: wrap;
+
 
 }
-.btn-pruebalo{
-  display: flex;
-  flex-direction: column;
-  justify-content:space-evenly;
-  align-items: center;
 
-}
+
 .what-we-offer-title{
 
   padding: 10px 15px;
@@ -515,7 +535,7 @@ align-items: center;
 
 @media screen and (max-width: 992px) {
   .container {
-    max-width: 100%; /* Cambia el ancho máximo para pantallas más pequeñas */
+    max-width: 100%;
     
   }
     .title-logo {
